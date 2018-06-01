@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  
+  <display-name>Servlet_login_regist</display-name>
+  
+  <!-- 登录 -->
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.destiny.servlet.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 注册 -->
+  <servlet>
+    <servlet-name>Regist</servlet-name>
+    <servlet-class>com.destiny.servlet.Regist</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Regist</servlet-name>
+    <url-pattern>/servlet/Regist</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 验证码 -->
+  <servlet>
+    <servlet-name>RandomImage</servlet-name>
+    <servlet-class>com.destiny.servlet.RandomImage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RandomImage</servlet-name>
+    <url-pattern>/servlet/RandomImage</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 首页 -->
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

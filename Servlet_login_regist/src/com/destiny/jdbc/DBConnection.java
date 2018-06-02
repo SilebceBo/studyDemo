@@ -11,7 +11,7 @@ public class DBConnection {
 	private static String driver = "com.mysql.jdbc.Driver";
 	private static String url = "jdbc:mysql://localhost:3306/test?characterEncoding=utf-8&useUnicode=true&createDatabaseIfNoExist=true";
 	private static String username = "root";
-	private static String password = "zhaobo..";
+	private static String password = "root";
 	
 	static Connection con =null;
 	

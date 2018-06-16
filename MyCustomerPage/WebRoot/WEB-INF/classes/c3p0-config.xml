@@ -6,7 +6,7 @@
 		<property name="jdbcUrl">jdbc:mysql://localhost:3306/test?characterEncoding=utf-8&amp;useUnicode=true&amp;createDatabaseIfNoExist=true</property>
 		<property name="driverClass">com.mysql.jdbc.Driver</property>
 		<property name="user">root</property>
-		<property name="password">zhaobo..</property>
+		<property name="password">root</property>
 		<!-- 池参数配置 -->
 		<property name="acquireIncrement">3</property>
 		<property name="initialPoolSize">10</property>

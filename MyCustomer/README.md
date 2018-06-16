@@ -6,6 +6,7 @@
 - 查找客户
 - 删除客户
 - 高级搜索
+
 ## 需要的jar包：
 - myEclipse的JavaEE支持
 - mysql-connector-java-5.1.13-bin.jar

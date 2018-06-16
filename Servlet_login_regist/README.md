@@ -5,5 +5,5 @@
 - 注册
 - 验证码
 ## 需要的jar包：
+- myEclipse的JavaEE支持
 - mysql-connector-java-5.1.13-bin.jar
-- servlet-api-2.5.jar

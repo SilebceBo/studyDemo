@@ -17,4 +17,4 @@
 - c3p0-0.9.2-pre1.jar
 - c3p0-oracle-thin-extras-0.9.2-pre1.jar
 - mchange-commons-0.2.jar
-- itcast-tools-1.4.2.jar(自己封装的jar，已上传，需修改为.jar结尾)
+- itcast-tools-1.4.2.jar(自己封装的jar，已上传到项目目录下)
